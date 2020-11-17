@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{670ECCAC-972D-4D24-A452-04C83B7A76AB}" SchemaVersion="94">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{670ECCAC-972D-4D24-A452-04C83B7A76AB}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="hunhe" ID="{1FAEBFF4-75AD-472F-9428-68C79BED35DE}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

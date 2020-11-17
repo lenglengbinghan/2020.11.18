@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AD3F03EC-3A05-4641-A460-85722D801220}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{AD3F03EC-3A05-4641-A460-85722D801220}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="基本音效设计" ID="{9AC6E7AA-FDEA-497F-93A1-0C2A5C0353F0}" ShortID="586192939">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2E0113A-E8B2-44D9-8782-D1152EAF2965}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{908EAB7C-44EE-4F36-86F9-313A84113CAD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="雷鸣" ID="{A6FC82EA-9B8B-4345-8BC2-8A89B7BFC269}" ShortID="482123358">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="7.98766439909297"/>
+								<Property Name="FadeInShape" Type="int16" Value="6"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>雷鸣.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="299992594"/>
+							</ConvertedFileIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="雷鸣" ID="{A6FC82EA-9B8B-4345-8BC2-8A89B7BFC269}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="随即音效设计" ID="{CE5A5CF3-A49C-4A12-87D7-EF3E62B807AB}" ShortID="41827793">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{E81EF43B-809C-4681-AD1D-E5FBF2B1B91D}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="500"/>
+											<Property Name="Min" Type="Real64" Value="-500"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2E0113A-E8B2-44D9-8782-D1152EAF2965}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{908EAB7C-44EE-4F36-86F9-313A84113CAD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="风吼" ID="{8DCF7664-CEA3-4291-AA16-FDD747191E61}" ShortID="704487480">
+							<PropertyList>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>46</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2E0113A-E8B2-44D9-8782-D1152EAF2965}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{908EAB7C-44EE-4F36-86F9-313A84113CAD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="风吼" ID="{14EC369D-208A-480A-A286-89CF3FD3B4AA}" ShortID="326433054">
+									<Language>SFX</Language>
+									<AudioFile>风吼.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="风吼" ID="{14EC369D-208A-480A-A286-89CF3FD3B4AA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="雷鸣" ID="{94070F36-A679-4D4D-BF32-58586D1C8EE8}" ShortID="962417961">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2E0113A-E8B2-44D9-8782-D1152EAF2965}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{908EAB7C-44EE-4F36-86F9-313A84113CAD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="雷鸣" ID="{725AF03E-82CF-465C-BDBB-535A3EF96097}" ShortID="525231054">
+									<Language>SFX</Language>
+									<AudioFile>雷鸣.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="482123358"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="雷鸣" ID="{725AF03E-82CF-465C-BDBB-535A3EF96097}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="女人喊" ID="{648CE774-D31C-40D2-A5C8-BE9091490D60}" ShortID="349964045">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>78</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2E0113A-E8B2-44D9-8782-D1152EAF2965}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{908EAB7C-44EE-4F36-86F9-313A84113CAD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="女人喊" ID="{6599EC5A-8873-4684-A796-DD4CCB750E3A}" ShortID="362102766">
+									<Language>SFX</Language>
+									<AudioFile>女人喊.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="女人喊" ID="{6599EC5A-8873-4684-A796-DD4CCB750E3A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="汽车" ID="{AF794781-9FB9-442B-BC42-E09C1BB89331}" ShortID="652153057">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2E0113A-E8B2-44D9-8782-D1152EAF2965}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{908EAB7C-44EE-4F36-86F9-313A84113CAD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="汽车" ID="{D173215F-6FB9-4DFD-8033-BAD804E14D7B}" ShortID="864632706">
+									<Language>SFX</Language>
+									<AudioFile>汽车.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="汽车" ID="{D173215F-6FB9-4DFD-8033-BAD804E14D7B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="序列音效设计" ID="{B32BDC14-9B9A-403D-B259-AC09447CB3E8}" ShortID="295143884">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2E0113A-E8B2-44D9-8782-D1152EAF2965}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{908EAB7C-44EE-4F36-86F9-313A84113CAD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="风吼" ID="{153A55F4-344C-45BC-98FF-BD85C248F929}" ShortID="854995786">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2E0113A-E8B2-44D9-8782-D1152EAF2965}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{908EAB7C-44EE-4F36-86F9-313A84113CAD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="风吼" ID="{DF34E4C5-54C5-448F-BDE2-19E6C072A4B0}" ShortID="134137136">
+									<Language>English(US)</Language>
+									<AudioFile>风吼.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="风吼" ID="{DF34E4C5-54C5-448F-BDE2-19E6C072A4B0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="雷鸣" ID="{748465D0-9C01-46EC-A7D8-27098964F841}" ShortID="756547650">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2E0113A-E8B2-44D9-8782-D1152EAF2965}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{908EAB7C-44EE-4F36-86F9-313A84113CAD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="雷鸣" ID="{9728EBF7-75AA-490E-B5A5-D6A447905DBB}" ShortID="197700995">
+									<Language>English(US)</Language>
+									<AudioFile>雷鸣.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="雷鸣" ID="{9728EBF7-75AA-490E-B5A5-D6A447905DBB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="汽车" ID="{05404797-20A3-4999-B1E8-EBD61FE474CB}" ShortID="615399381">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2E0113A-E8B2-44D9-8782-D1152EAF2965}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{908EAB7C-44EE-4F36-86F9-313A84113CAD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="汽车" ID="{BBA0DC9E-2F65-4DA9-8D1B-358E3BD5F1A1}" ShortID="1066523652">
+									<Language>English(US)</Language>
+									<AudioFile>汽车.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="汽车" ID="{BBA0DC9E-2F65-4DA9-8D1B-358E3BD5F1A1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="风吼" ID="{153A55F4-344C-45BC-98FF-BD85C248F929}"/>
+						<ItemRef Name="雷鸣" ID="{748465D0-9C01-46EC-A7D8-27098964F841}"/>
+						<ItemRef Name="汽车" ID="{05404797-20A3-4999-B1E8-EBD61FE474CB}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<BlendContainer Name="混合音效设计" ID="{408F8190-A8A1-4CD7-AEF6-25E1C1A7ACD7}" ShortID="410464143">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2E0113A-E8B2-44D9-8782-D1152EAF2965}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{908EAB7C-44EE-4F36-86F9-313A84113CAD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="风吼" ID="{04061A75-DB4A-49CD-A677-F8C5A4A6BBFD}" ShortID="119589910">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2E0113A-E8B2-44D9-8782-D1152EAF2965}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{908EAB7C-44EE-4F36-86F9-313A84113CAD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="风吼" ID="{01EEDA08-6C28-4CAD-9B3C-27F88ECF4CAD}" ShortID="529434605">
+									<Language>SFX</Language>
+									<AudioFile>风吼.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="风吼" ID="{01EEDA08-6C28-4CAD-9B3C-27F88ECF4CAD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="雷鸣" ID="{2B111316-1760-4E73-BC03-AB0F87F018C3}" ShortID="667008468">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2E0113A-E8B2-44D9-8782-D1152EAF2965}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{908EAB7C-44EE-4F36-86F9-313A84113CAD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="雷鸣" ID="{1672A5CC-B2C0-4EC3-B0F9-5EDFC2A9CA5E}" ShortID="588059681">
+									<Language>SFX</Language>
+									<AudioFile>雷鸣.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="雷鸣" ID="{1672A5CC-B2C0-4EC3-B0F9-5EDFC2A9CA5E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<BlendTrackList>
+						<BlendTrack Name="混合" ID="{35B7ADB8-92F5-4BCA-82EB-74D99D76D655}" ShortID="817713140">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="hunhe" ID="{1FAEBFF4-75AD-472F-9428-68C79BED35DE}" WorkUnitID="{670ECCAC-972D-4D24-A452-04C83B7A76AB}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="雷鸣" ID="{2B111316-1760-4E73-BC03-AB0F87F018C3}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>60</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="风吼" ID="{04061A75-DB4A-49CD-A677-F8C5A4A6BBFD}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>40</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>100</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+				<RandomSequenceContainer Name="空间音频设计" ID="{B686FB09-E8F5-497E-A58E-F3BF1C1B9F31}" ShortID="536273715">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{349D1716-E85E-4D11-83F6-2D9B2A68732B}" ShortID="106503270">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{751A72E2-596E-4E8E-BB16-8A95507C5B5B}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>50</XPos>
+															<YPos>-0.01048</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>SCurve</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None">
+												<Curve Name="VolumeWetUser" ID="{E6653625-E2D0-4645-8178-C78898D48C99}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>50</XPos>
+															<YPos>-0.01048</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>SCurve</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="LowPassFilter" ID="{6CA53BD4-4DE9-4E85-B56C-45ABFF6FDE9A}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>100</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None">
+												<Curve Name="HighPassFilter" ID="{F3872DA7-2FA6-4ED1-A4E6-81336EBF6961}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>100</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="Spread" ID="{68F2EAB3-7008-4140-BFC9-D04027542462}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="1"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>100</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>0</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2E0113A-E8B2-44D9-8782-D1152EAF2965}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{908EAB7C-44EE-4F36-86F9-313A84113CAD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="汽车" ID="{971E8ACF-E64D-4D24-A6E8-34905A8C1D40}" ShortID="781874991">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>59</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2E0113A-E8B2-44D9-8782-D1152EAF2965}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{908EAB7C-44EE-4F36-86F9-313A84113CAD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="汽车" ID="{8246555D-5E0E-41D6-9ED7-101CD8E6F7C2}" ShortID="98300069">
+									<Language>SFX</Language>
+									<AudioFile>汽车.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="864632706"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="汽车" ID="{8246555D-5E0E-41D6-9ED7-101CD8E6F7C2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="雷鸣" ID="{14E6B579-C777-4F89-997C-627D78762DB8}" ShortID="361502658">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2E0113A-E8B2-44D9-8782-D1152EAF2965}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{908EAB7C-44EE-4F36-86F9-313A84113CAD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="雷鸣" ID="{4D4EE27A-D340-4C8F-8266-1CAC548FBC22}" ShortID="299992594">
+									<Language>SFX</Language>
+									<AudioFile>雷鸣.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="482123358"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="雷鸣" ID="{4D4EE27A-D340-4C8F-8266-1CAC548FBC22}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="风吼" ID="{4B47CE70-97CB-4A65-B38E-9D0D938BA177}" ShortID="466736728">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2E0113A-E8B2-44D9-8782-D1152EAF2965}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{908EAB7C-44EE-4F36-86F9-313A84113CAD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="风吼" ID="{D0FE15A7-1327-4C1B-B7B0-BC65E898CBBF}" ShortID="445231798">
+									<Language>SFX</Language>
+									<AudioFile>风吼.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="326433054"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="风吼" ID="{D0FE15A7-1327-4C1B-B7B0-BC65E898CBBF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

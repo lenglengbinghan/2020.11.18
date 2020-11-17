@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E17629A0-F658-40CE-A7A6-13D62D7192AF}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{E17629A0-F658-40CE-A7A6-13D62D7192AF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="leiming" ID="{682D4458-1843-4546-A092-081082E4C049}">
+					<ObjectInclusionList>
+						<ObjectRef Name="leiming" ID="{636D4303-C1A1-4398-BD17-28A9508A74A1}" WorkUnitID="{D513A722-DD6D-440C-8F26-FF9AE7EF57A1}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="leimingsoundbank" ID="{5B3110B8-4A70-47FC-A957-D9A27766DAAE}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

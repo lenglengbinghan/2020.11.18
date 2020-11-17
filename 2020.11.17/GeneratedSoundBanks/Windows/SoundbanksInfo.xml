@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>E:\software\Wwise 2019.1.10.7250\zuopin\2020.11.17\</ProjectRoot>
+		<SourceFilesRoot>E:\software\Wwise 2019.1.10.7250\zuopin\2020.11.17\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\software\Wwise 2019.1.10.7250\zuopin\2020.11.17\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\software\Wwise 2019.1.10.7250\zuopin\2020.11.17\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4148861174" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\leiming</ObjectPath>
+			<ShortName>leiming</ShortName>
+			<Path>leiming.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4148861174" Name="leiming" ObjectPath="\Events\Default Work Unit\leiming"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="482123358" Language="SFX">
+					<ShortName>雷鸣.wav</ShortName>
+					<Path>SFX\雷鸣_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
